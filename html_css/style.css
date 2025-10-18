@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    font-family: 'HelveticaLocal', sans-serif;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  /* Fixed Vanta Background */
+  #vanta-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1; /* Behind everything */
+  }
+  
+  /* Foreground Content */
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Hero text over Vanta */
+  .hero-text {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    font-size: 40px;
+    /*color:	white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+    color:	rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .black-scroll {
+    background: rgba(0, 0, 0, 0.85); /* semi-transparent black */
+    padding: 100px 20px; /* space inside the section */
+    width: 95vw;          /* or a custom value like 80vw */
+    min-height: 70vh;     /* adjust this to control vertical size */
+    backdrop-filter: blur(2px);
+    margin: 0 auto;       /* center it if width is less than 100% */
+  }
+  
+  @font-face {
+    font-family: 'HelveticaLocal';
+    src: url('./fonts/Helvetica-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

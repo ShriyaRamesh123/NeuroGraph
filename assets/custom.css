@@ -1,0 +1,248 @@
+/* CSS style sheet for Final_model_run.py*/
+
+body {
+    background-color: transparent !important;  /* Full-page background */
+}
+
+
+.HeadingDiv {
+    font-family: 'HelveticaLocal', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.SubheadDiv{
+    font-family: 'HelveticaLocal', sans-serif;
+    color: white;
+    font-size: 5px;
+    text-align: center;
+}
+
+.BodyDiv {
+    font-family: 'HelveticaLocal', sans-serif;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'HelveticaLocal';
+    src: url('./fonts/Helvetica-BoldOblique.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    background: transparent;
+    
+  }
+  .black-scroll {
+    background: rgba(0, 0, 0, 0.85); /* semi-transparent black */
+    padding: 100px 20px; /* space inside the section */
+    width: 95vw;          /* or a custom value like 80vw */
+    min-height: 70vh;     /* adjust this to control vertical size */
+    backdrop-filter: blur(2px);
+    margin: 0 auto;       /* center it if width is less than 100% */
+  }
+
+  /* CSS */
+.container {
+    width: 100%;
+    max-width: 20rem; /* 320px */
+    padding: 1.25rem; /* 20px */
+    background-color: white;
+    border-radius: 0.5rem; /* 8px */
+    font-family: monospace;
+  }
+  
+  .container label {
+    display: block;
+    color: #4a5568; /* Tailwind's gray-700 */
+    font-size: 0.875rem; /* 14px */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-input {
+    font-size: 0.875rem; /* 14px */
+    width: 100%;
+    padding: 0.5rem 1rem; /* 8px top/bottom, 16px left/right */
+    border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+    border-radius: 0.5rem; /* 8px */
+    background-color: #f3f4f6; /* Tailwind's gray-100 */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    transform: translateY(-0.25rem); /* -4px */
+    border-color: #93c5fd; /* Tailwind's blue-300 */
+    box-shadow: 0 0 0 2px #bfdbfe; /* Tailwind's blue-200 */
+  }
+  
+  .custom-input:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: #93c5fd; /* Tailwind's blue-300 */
+  }
+
+  
+  button {
+    --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+    --accent: fuchsia;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #0000006f;
+    cursor: pointer;
+    color: white;
+    padding: 10px 10px;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+      letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    /*box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626; */
+
+  }
+  
+  button:hover {
+    box-shadow: var(--hover-shadows);
+  }
+  
+  button:active {
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+  }
+  
+
+  .ResultsDiv {
+    color: white;
+    text-align: center;
+  }
+
+  /* Tabs container */
+.tab-container {
+    background-color: black;
+    
+  }
+  
+  /* Each individual tab */
+  .custom-tab {
+    background-color: black;
+    color: white;
+    border: 1px solid #444;
+    padding: 1em;
+  }
+  
+  .custom-tab--selected {
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #0af;
+    
+  }
+
+
+  .notification {
+    display: flex;
+    flex-direction: column;
+    isolation: isolate;
+    position: relative;
+    width: 18rem;
+    height: 8rem;
+    background: #29292c;
+    border-radius: 1rem;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+    --color: #32a6ff
+  }
+  
+  .notification:before {
+    position: absolute;
+    content: "";
+    inset: 0.0625rem;
+    border-radius: 0.9375rem;
+    background: #18181b;
+    z-index: 2
+  }
+  
+  .notification:after {
+    position: absolute;
+    content: "";
+    width: 0.25rem;
+    inset: 0.65rem auto 0.65rem 0.5rem;
+    border-radius: 0.125rem;
+    background: var(--gradient);
+    transition: transform 300ms ease;
+    z-index: 4;
+  }
+  
+  .notification:hover:after {
+    transform: translateX(0.15rem)
+  }
+  
+  .notititle {
+    color: var(--color);
+    padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: transform 300ms ease;
+    z-index: 5;
+  }
+  
+  .notification:hover .notititle {
+    transform: translateX(0.15rem)
+  }
+  
+  .notibody {
+    color: #99999d;
+    padding: 0 1.25rem;
+    transition: transform 300ms ease;
+    z-index: 5;
+  }
+  
+  .notification:hover .notibody {
+    transform: translateX(0.25rem)
+  }
+  
+  .notiglow,
+  .notiborderglow {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle closest-side at center, white, transparent);
+    opacity: 0;
+    transition: opacity 300ms ease;
+  }
+  
+  .notiglow {
+    z-index: 3;
+  }
+  
+  .notiborderglow {
+    z-index: 1;
+  }
+  
+  .notification:hover .notiglow {
+    opacity: 0.1
+  }
+  
+  .notification:hover .notiborderglow {
+    opacity: 0.1
+  }
+  
+  .note {
+    color: var(--color);
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+    width: 75%;
+  }
