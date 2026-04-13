@@ -9,20 +9,15 @@ NeuroGraph is an ML project that is used for the objective diagnosis of Autism S
 Language: Python
 
 Libraries: 
-* ![Static Badge](https://img.shields.io/badge/PyTorch-Geometric?logo=pyg&logoSize=auto&color=FF9800&link=https%3A%2F%2Fpytorch-geometric.readthedocs.io%2Fen%2Flatest%2F)
+
 * ![PyTorch Geometric](https://img.shields.io/badge/PyTorch%20Geometric-FF9800?style=for-the-badge&logo=pytorch&logoColor=white)
-* ![Static Badge](https://img.shields.io/badge/Tensor-flow?logo=tensorflow&logoColor=3A485F&link=https%3A%2F%2Fwww.tensorflow.org%2F)
-* ![Static Badge](https://img.shields.io/badge/plot-ly?logo=plotly&logoColor=3A485F&color=17181A&link=https%3A%2F%2Fplotly.com%2F)
+* ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+* ![Plotly](https://img.shields.io/badge/Plotly-17181A?style=for-the-badge&logo=plotly&logoColor=white)
+* ![Nilearn](https://img.shields.io/badge/Nilearn-3499CD?style=for-the-badge&logo=python&logoColor=white)
+* ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
+* ![Dash](https://img.shields.io/badge/Dash-008DE4?style=for-the-badge&logo=plotly&logoColor=white)
+* ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-* ![Static Badge](https://img.shields.io/badge/ni-learn?logo=brain&logoColor=3A485F&color=3499CD&link=https%3A%2F%2Fnilearn.github.io%2Fstable%2Findex.html)
-
-
- 
-3) Nilearn
-4) Seaborn
-5) Plotly
-6) Dash
-7) Streamlit
 
 
 
