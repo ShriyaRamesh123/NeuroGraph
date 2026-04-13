@@ -9,8 +9,12 @@ NeuroGraph is an ML project that is used for the objective diagnosis of Autism S
 Language: Python
 
 Libraries: 
-* ![Static Badge](https://img.shields.io/badge/PyTorch-Geometric?logo=pyg&logoSize=auto&color=FF9800&link=https%3A%2F%2Fpytorch-geometric.readthedocs.io%2Fen%2Flatest%2F)
+* ![Pytorch Geometric](https://img.shields.io/badge/PyTorch-Geometric?logo=pyg&logoSize=auto&color=FF9800&link=https%3A%2F%2Fpytorch-geometric.readthedocs.io%2Fen%2Flatest%2F)
 * ![Static Badge](https://img.shields.io/badge/Tensor-flow?logo=tensorflow&logoColor=3A485F&link=https%3A%2F%2Fwww.tensorflow.org%2F)
+* ![Static Badge](https://img.shields.io/badge/plot-ly?logo=plotly&logoColor=3A485F&color=17181A&link=https%3A%2F%2Fplotly.com%2F)
+
+* ![Static Badge](https://img.shields.io/badge/ni-learn?logo=brain&logoColor=3A485F&color=3499CD&link=https%3A%2F%2Fnilearn.github.io%2Fstable%2Findex.html)
+
 
  
 3) Nilearn
