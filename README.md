@@ -10,7 +10,8 @@ Language: Python
 
 Libraries: 
 * ![Static Badge](https://img.shields.io/badge/PyTorch-Geometric?logo=pyg&logoSize=auto&color=FF9800&link=https%3A%2F%2Fpytorch-geometric.readthedocs.io%2Fen%2Flatest%2F)
-* ![Static Badge](https://img.shields.io/badge/Tensorflow?logo=tensorflow&logoSize=auto&color=3A485F&link=https%3A%2F%2Fwww.tensorflow.org%2F)
+* ![Static Badge](https://img.shields.io/badge/Tensor-flow?logo=tensorflow&logoColor=3A485F&link=https%3A%2F%2Fwww.tensorflow.org%2F)
+
  
 3) Nilearn
 4) Seaborn
