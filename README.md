@@ -9,7 +9,7 @@ NeuroGraph is an ML project that is used for the objective diagnosis of Autism S
 Language: Python
 
 Libraries: 
-* ![Pytorch Geometric][PyTorch Geomtric]][https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png]
+* ![Pytorch Geometric][pytorch_geo]][pytorch_geo-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -62,3 +62,9 @@ The list of File names you can try this out is in the ----- folder
 ![ASD prediction](https://github.com/ShriyaRamesh123/NeuroGraph/blob/main/Prediction%20result.png)
 
 ![Top regions in brain contributing to ASD](https://github.com/ShriyaRamesh123/NeuroGraph/blob/main/Graph%20plot.png)
+
+
+
+
+[pytorch_geo]: https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/master/pyg_sphinx_theme/static/img/pyg_logo.png
+[pytorch_geo-url]: https://pytorch-geometric.readthedocs.io/en/latest/
