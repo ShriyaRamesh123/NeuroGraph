@@ -10,16 +10,8 @@ Language: Python
 
 Libraries: 
 * ![Static Badge](https://img.shields.io/badge/PyTorch-Geometric?logo=pyg&logoSize=auto&color=FF9800&link=https%3A%2F%2Fpytorch-geometric.readthedocs.io%2Fen%2Flatest%2F)
-
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-1) PyTorch Geometric 
-2) Tensorflow 
+* ![Static Badge](https://img.shields.io/badge/Tensorflow?logo=tensorflow&logoSize=auto&color=3A485F&link=https%3A%2F%2Fwww.tensorflow.org%2F)
+ 
 3) Nilearn
 4) Seaborn
 5) Plotly
