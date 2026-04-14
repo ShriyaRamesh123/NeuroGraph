@@ -26,6 +26,13 @@ Libraries:
 1) About
 2) Usage
 
+## About 
+Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition characterized by persistent deficits in social communication and interaction, along with restricted, repetitive patterns of behavior, interests, or activities. The gold standard for ASD diagnosis at present is based on behavioral measures, specifically 
+the Autism Diagnostic Observation Schedule (ADOS) and the Autism Diagnostic Interview Revised (ADI-R). These have been comprehensively validated and are accepted as highly credible measures across research and clinical communities. Their operational use, however, poses difficulties. They take a lot of training and skill to give and to score correctly, which restricts their availability—most importantly, in settings where resources are limited and trained clinicians are not readily available. Additionally, even though they are standardized in format, they are subjective by nature, heavily dependent on clinician observation and judgment. Subjectivity brings inconsistency in diagnoses due to factors like the clinician's experience, cultural background, and situational factors.
+
+The NeuroGraph system is an integrated system designed to build and analyze the brain's functional connectivity network from resting-state fMRI (rs-fMRI) data to enable the detection and comprehension of Autism Spectrum Disorder (ASD). NeuroGraph is a Graph Neural Network based diagnostic model for ASD. NeuroGraph will use data from brain connectomes to predict early, biology-driven diagnoses with interpretability in clinical settings. The model shall be capable of generalizing between heterogeneous populations and imaging protocols with a data-driven solution to overcome expert-heavy diagnosis.
+
+By casting the brain as a dynamic network, this methodology deflects the diagnostic approach from feature-based inspection to connectivity-conscious learning—turning ASD diagnosis into a more scalable, objective, and reproducible process based on computational neuroscience.
 
 ## Usage
 
